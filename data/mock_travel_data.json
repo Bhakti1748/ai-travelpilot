@@ -1,0 +1,33 @@
+{
+  "trips": [
+    {
+      "id": "trip-tokyo-2026",
+      "destination": "Tokyo & Kyoto, Japan",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-18",
+      "budget": 3800,
+      "spending": 2240,
+      "travelers": 2,
+      "interests": ["Food", "History", "Photography", "Technology"],
+      "travelStyle": "Balanced",
+      "transportPreference": "Public Transit (Metro & Train)",
+      "budgetBreakdown": {
+        "accommodation": 1100,
+        "transportation": 420,
+        "activities": 380,
+        "food": 260,
+        "miscellaneous": 80
+      }
+    }
+  ],
+  "disruptions": [
+    {
+      "id": "alert-1",
+      "type": "delay",
+      "title": "JR Yamanote Line 18-min Delay",
+      "severity": "warning",
+      "description": "Minor signal check between Shinjuku and Shibuya.",
+      "aiResolution": "TravelPilot automatically shifted teamLab Borderless booking window by 30 mins with zero penalty fee."
+    }
+  ]
+}
